@@ -1,0 +1,35 @@
+body{
+    background: -webkit-linear-gradient(to right, #50e0f3, #bdc3c7); 
+    background: linear-gradient(to right, #66ddea, #bdc3c7); 
+}
+
+.form{
+
+    background-color: white;
+    border-radius: 20px;
+    width: 1000px;
+    margin: 400px auto;
+    padding: 30px;
+    height: 300px;
+}
+
+.form-body{
+    text-align: left;
+    padding: 20px 10px;
+}
+
+.form-body > *{
+    padding: 10px;
+}
+
+.form__label{
+    width: 50%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+}

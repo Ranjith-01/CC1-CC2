@@ -1,0 +1,36 @@
+.s{
+    text-align: center;
+
+    background-color: aliceblue;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#h{
+    text-align: center;
+    padding-top: 10%;
+}
+#m{
+    animation: 
+    backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
+}
+@keyframes backgroundColorPalette {
+    0% {
+      background: #f5eff9;
+    }
+    25% {
+      background: #dbdaf8;
+    }
+    50% {
+      background: #aadcf5;
+    }
+    75% {
+      background: #b8f3f7;
+    }
+    100% {
+      background: #faebf8;
+    }
+  }
